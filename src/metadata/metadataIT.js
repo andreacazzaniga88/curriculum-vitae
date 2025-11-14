@@ -19,7 +19,7 @@ module.exports = {
   professionalExp: 'Esperienza Lavorativa',			  
   positions: [
     {
-      title: 'Technical Senior Consultant',
+      title: 'Senior Technical Consultant',
       company: 'Atlantic Technologies Spa',
       location: 'Milan, IT',
       period: 'Apr 2021 - Attuale',
