@@ -25,7 +25,7 @@ module.exports = {
       period: 'Apr 2021 - Attuale',
       skills: ['Infor', 'Java', 'TypeScript', 'Angular', 'NodeJS', 'Docker'],
       contents: `
-Infor M3 technical consultant per grosse aziende food / fashion:
+Infor M3 Technical Consultant per aziende del settore alimentare e moda:
 
 * Sviluppo frontend H5 Apps con Infor H5 SDK (Angular, TypeScript) e H5 Scripts (TypeScript)
 * Sviluppo interfacce esterne con Java / NodeJS (microservices) / Docker
@@ -179,7 +179,7 @@ INFORMATICA-TELEMATICA`,
       contents: ` Java, JavaScript, TypeScript, C#, PHP, SQL, HTML, CSS, XML, XSL, Xpath`
     },
     {
-      contents: `Camminate, sci, mtb e bici da strada. Appassionato di sport motoristici e motociclista.`
+      contents: `Camminate, sci, mtb e bici da strada. Appassionato di sport motoristici.`
     },
     {
       contents: `Possessore di animali, un gatto e un acquario`

@@ -25,7 +25,7 @@ module.exports = {
       period: 'Apr 2021 - Present',
       skills: ['Infor', 'Java', 'TypeScript', 'Angular', 'NodeJS', 'Docker'],
       contents: `
-Infor M3 technical consultant for big food / fashion company:
+Infor M3 Technical Consultant in the Food and Fashion Industry:
 
 * Develop frontend H5 Apps with Infor H5 SDK (Angular, TypeScript) and H5 Scripts (TypeScript)
 * Develop external interfaces with Java / NodeJS (microservices) / Docker
@@ -177,7 +177,7 @@ University apprenticeship and thesis: "PLUGIN PER INTEGRAZIONE 'MONITOR CARROZZI
       contents: ` Java, JavaScript, TypeScript, C#, PHP, SQL, HTML, CSS, XML, XSL, Xpath`
     },
     {
-      contents: `Hiking, skiing, mtb and road bike. Motorsports enthusiast and biker.`
+      contents: `Hiking, skiing, mtb and road bike. Motorsports enthusiast.`
     },
     {
       contents: `Pet owner, a cat and a fish tank`
