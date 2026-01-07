@@ -23,7 +23,7 @@ module.exports = {
       company: 'Atlantic Technologies Spa',
       location: 'Milan, IT',
       period: 'Apr 2021 - Present',
-      skills: ['Infor', 'Java', 'TypeScript', 'Angualar', 'NodeJS', 'Docker'],
+      skills: ['Infor', 'Java', 'TypeScript', 'Angular', 'NodeJS', 'Docker'],
       contents: `
 Infor M3 technical consultant for big food / fashion company:
 
