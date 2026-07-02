@@ -13,10 +13,10 @@ module.exports = async function buildPdf(inputFile, outputFile) {
     format: 'A4',
     border: 0,
     margin: {
-      top: '2.54cm',
-      right: '2.54cm',
-      bottom: '2.54cm',
-      left: '2.54cm',
+      top: '1.2cm',
+      right: '1.2cm',
+      bottom: '1.2cm',
+      left: '1.2cm',
     },
   });
   await browser.close();

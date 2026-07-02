@@ -7,7 +7,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -17,14 +17,14 @@
 <div class="container page">
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <div class="row">
-            <div class="col-print-6 col-12 col-md-4 d-flex justify-content-between flex-column">
+            <div class="col-print-5 col-12 col-md-4 d-flex justify-content-between flex-column">
                 <div>
                     <h1 class="mb-0">{{ name }}</h1>
                     <div class="fs-3">{{ title }}</div>
                     <div class="fs-6">{{ birthDate }}</div>
                 </div>
                 <div>
-                    <p>
+                    <p class="screen">
                         <time datetime="{{ buildinfo.date }}" class="small">{{lastUpdate}}: {{ updated }}</time>
                     </p>
                     <p>
@@ -32,16 +32,13 @@
                     </p>
                     <p>
                         <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>{{downloadPdf}}</a></span>
-                        <span class="print">{{upToDate}} <a href="{{ baseUrl }}"
-                                                                                        class="text-nowrap"><i
-                            class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
+            <div class="col-print-2 col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block d-print-block align-md-self-center text-center">
                 <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
             </div>
-            <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
+            <div class="col-print-5 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">
                     {{#each facts}}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
