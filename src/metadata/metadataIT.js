@@ -16,6 +16,7 @@ module.exports = {
   otherVersion: 'Versione inglese',
   downloadPdf: 'Scarica versione PDF',
   upToDate: 'La versione aggiornata del CV è disponibile presso',
+  onlineLabel: 'Versione online',
   professionalExp: 'Esperienza Lavorativa',
   positions: [
     {

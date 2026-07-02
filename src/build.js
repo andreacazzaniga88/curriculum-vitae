@@ -34,7 +34,7 @@ var pdfFileName = `${getSlug(templateDataEN.name)}.pdf`;
 const htmlEN = template({
   ...templateDataEN,
   baseUrl: `https://${username()}.github.io/${repoName.sync()}/en`,
-  otherUrl: `https://${username()}.github.io/${repoName.sync()}/it`,
+  otherUrl: '../it/',
   pdfFileName,
   updated: dayjs().format('MMMM D, YYYY'),
 });
@@ -50,7 +50,7 @@ buildPdf(`${outputDirEN}/index.html`, `${outputDirEN}/${pdfFileName}`);
 const htmlIT = template({
   ...templateDataIT,
   baseUrl: `https://${username()}.github.io/${repoName.sync()}/it`,
-  otherUrl: `https://${username()}.github.io/${repoName.sync()}/en`,
+  otherUrl: '../en/',
   pdfFileName,
   updated: dayjs().format('DD/MM/YYYY'),
 });
